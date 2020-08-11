@@ -7,3 +7,8 @@ library(lpSolve)
 library(irr)
 kripp.alpha(rbind(sprintLengthJ1,sprintLengthJ2,sprintLengthJ3,sprintLengthJ4))
 
+Krippendorff's alpha
+
+ Subjects = 19 
+   Raters = 4 
+    alpha = 0.356 
