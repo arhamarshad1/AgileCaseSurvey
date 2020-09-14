@@ -30,3 +30,33 @@ Empty columns were considered as N/A
     alpha = 0.591 
 Warning message:
 In kripp.alpha(rbind(SL1, SL2, SL3, SL4)) : NAs introduced by coercion
+
+
+*Fleiss' Kappa*
+> DataSet <- CodingSchemeWithSurveyResults[,8:11]
+> # Compute kapa
+> kappam.fleiss(DataSet)
+ Fleiss' Kappa for m Raters
+
+ Subjects = 2 
+   Raters = 4 
+    Kappa = 0.273 
+
+        z = 1.71 
+  p-value = 0.0875 
+> kappam.fleiss(DataSet, detail = TRUE)
+ Fleiss' Kappa for m Raters
+
+ Subjects = 2 
+   Raters = 4 
+    Kappa = 0.273 
+
+        z = 1.71 
+  p-value = 0.0875 
+
+              Kappa      z p.value
+2             1.000  3.464   0.001
+sprintLen_J1 -0.143 -0.495   0.621
+sprintLen_J2 -0.143 -0.495   0.621
+sprintLen_J3 -0.143 -0.495   0.621
+sprintLen_J4 -0.143 -0.495   0.621
