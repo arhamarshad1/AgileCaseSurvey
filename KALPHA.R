@@ -23,3 +23,29 @@ totStaff4 <- Test$totalStaff_J4
 
 kripp.alpha(rbind(totStaff1,totStaff2,totStaff3,totStaff4),"ratio")
 
+##OUTPUT##
+
+> kripp.alpha(rbind(trustIssues1,trustIssues2,trustIssues3,trustIssues4),"ratio")
+ Krippendorff's alpha
+
+ Subjects = 30 
+   Raters = 4 
+    alpha = 0.674 
+> 
+> totStaff1 <- Test$totalStaff_J1
+> totStaff2 <- Test$totalStaff_J2
+> totStaff3 <- Test$totalStaff_J3
+> totStaff4 <- Test$totalStaff_J4
+> 
+> kripp.alpha(rbind(totStaff1,totStaff2,totStaff3,totStaff4),"ratio")
+ Krippendorff's alpha
+
+ Subjects = 30 
+   Raters = 4 
+    alpha = 0.727 
+> kripp.alpha(rbind(totStaff1,totStaff2,totStaff3,totStaff4),"ratio")
+ Krippendorff's alpha
+
+ Subjects = 30 
+   Raters = 4 
+    alpha = 0.727 
