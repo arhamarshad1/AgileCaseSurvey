@@ -37,3 +37,159 @@ commIssues4 <- Test$commIssues_J4
  Subjects = 30 
    Raters = 4 
     alpha = 0.727 
+
+> sprintLen1 <- Test$sprintLen_J1
+> sprintLen2 <- Test$sprintLen_J2
+> sprintLen3 <- Test$sprintLen_J3
+> sprintLen4 <- Test$sprintLen_J4
+> 
+> library(lpSolve)
+> library(irr)
+> kripp.alpha(rbind(sprintLen1,sprintLen2,sprintLen3,sprintLen4),"ratio")
+ Krippendorff's alpha
+
+ Subjects = 30 
+   Raters = 4 
+    alpha = 0.5 
+
+x <- Test$synchSprint_J1
+y <- Test$synchSprint_J2
+z <- Test$synchSprint_J3
+w <- Test$synchSprint_J4
+
+library(lpSolve)
+library(irr)
+kripp.alpha(rbind(x,y,z,w),"ratio")
+ Krippendorff's alpha
+
+ Subjects = 30 
+   Raters = 4 
+    alpha = 0.354 
+> x <- Test$syncSprintPlan_J1
+> y <- Test$syncSprintPlan_J2
+> z <- Test$syncSprintPlan_J3
+> w <- Test$syncSprintPlan_J4
+> 
+> library(lpSolve)
+> library(irr)
+> kripp.alpha(rbind(x,y,z,w),"ratio")
+ Krippendorff's alpha
+
+ Subjects = 30 
+   Raters = 4 
+    alpha = 0.82 
+
+> y <- Test$syncSprintRev_J2
+> z <- Test$syncSprintRev_J3
+> w <- Test$syncSprintRev_J4
+> 
+> library(lpSolve)
+> library(irr)
+> kripp.alpha(rbind(x,y,z,w),"ratio")
+ Krippendorff's alpha
+
+ Subjects = 30 
+   Raters = 4 
+    alpha = 0.444 
+
+> x <- Test$syncRetro_J1
+> y <- Test$syncRetro_J2
+> z <- Test$syncRetro_J3
+> w <- Test$syncRetro_J4
+> 
+> library(lpSolve)
+> library(irr)
+> kripp.alpha(rbind(x,y,z,w),"ratio")
+ Krippendorff's alpha
+
+ Subjects = 30 
+   Raters = 4 
+    alpha = 0.583 
+
+x <- Test$sharedDone_J1
+> y <- Test$sharedDone_J2
+> z <- Test$sharedDone_J3
+> w <- Test$sharedDone_J4
+> 
+> library(lpSolve)
+> library(irr)
+> kripp.alpha(rbind(x,y,z,w),"ratio")
+ Krippendorff's alpha
+
+ Subjects = 30 
+   Raters = 4 
+    alpha = 0.444 
+
+x <- Test$largestSite_J1
+> y <- Test$largestSite_J2
+> z <- Test$largestSite_J3
+> w <- Test$largestSite_J4
+> 
+> library(lpSolve)
+> library(irr)
+> kripp.alpha(rbind(x,y,z,w),"ratio")
+ Krippendorff's alpha
+
+ Subjects = 29 
+   Raters = 4 
+    alpha = 0.629 
+
+x <- Test$smallestSite_J1
+> y <- Test$smallestSite_J2
+> z <- Test$smallestSite_J3
+> w <- Test$smallestSite_J4
+> 
+> library(lpSolve)
+> library(irr)
+> kripp.alpha(rbind(x,y,z,w),"ratio")
+ Krippendorff's alpha
+
+ Subjects = 29 
+   Raters = 4 
+    alpha = 0.786 
+
+x <- Test$langDiff_J1
+> y <- Test$langDiff_J2
+> z <- Test$langDiff_J3
+> w <- Test$langDiff_J4
+> 
+> library(lpSolve)
+> library(irr)
+> kripp.alpha(rbind(x,y,z,w),"ratio")
+ Krippendorff's alpha
+
+ Subjects = 29 
+   Raters = 4 
+    alpha = 0.455 
+
+x <- Test$controlIssues_J1
+> y <- Test$controlIssues_J2
+> z <- Test$controlIssues_J3
+> w <- Test$controlIssues_J4
+> 
+> library(lpSolve)
+> library(irr)
+> kripp.alpha(rbind(x,y,z,w),"ratio")
+ Krippendorff's alpha
+
+ Subjects = 29 
+   Raters = 4 
+    alpha = 0.423 
+
+x <- Test$cultIssues_J1
+> y <- Test$cultIssues_J2
+> z <- Test$cultIssues_J3
+> w <- Test$cultIssues_J4
+> 
+> library(lpSolve)
+> library(irr)
+> kripp.alpha(rbind(x,y,z,w),"ratio")
+ Krippendorff's alpha
+
+ Subjects = 29 
+   Raters = 4 
+    alpha = 0.479 
+
+
+
+
