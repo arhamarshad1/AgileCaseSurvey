@@ -191,5 +191,25 @@ x <- Test$cultIssues_J1
     alpha = 0.479 
 
 
+<- TEST$siteVisits_J1
+> s2 <- TEST$siteVisits_J2
+> s3 <- TEST$siteVisits_J3
+> s4 <- TEST$siteVisits_J4
+> 
+> kripp.alpha(rbind(s1,s2,s3,s4))
+ Krippendorff's alpha
 
+ Subjects = 29 
+   Raters = 4 
+    alpha = 0.0459 
+ord1 <- TEST$coordIssues_J1
+> cord2 <- TEST$coordIssues_J2
+> cord3 <- TEST$coordIssues_J3
+> cord4 <- TEST$coordIssues_J4
+> 
+> kripp.alpha(rbind(cord1,cord2,cord3,cord4), "ratio")
+ Krippendorff's alpha
 
+ Subjects = 29 
+   Raters = 4 
+    alpha = 0.143 
