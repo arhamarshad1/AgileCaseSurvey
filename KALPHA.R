@@ -213,3 +213,17 @@ ord1 <- TEST$coordIssues_J1
  Subjects = 29 
    Raters = 4 
     alpha = 0.143 
+Test$DisPMtools_J1 <- as.factor(Test$DisPMtools_J1)
+> Test$DisPMtools_J2 <- as.factor(Test$DisPMtools_J2)
+> Test$DisPMtools_J3 <- as.factor(Test$DisPMtools_J3)
+> Test$DisPMtools_J4 <- as.factor(Test$DisPMtools_J4)
+> dist1 <- Test$DisPMtools_J1
+> dist2 <- Test$DisPMtools_J2
+> dist3 <- Test$DisPMtools_J3
+> dist4 <- Test$DisPMtools_J4
+> kripp.alpha(rbind(dist1,dist2,dist3,dist4),"ratio")
+ Krippendorff's alpha
+
+ Subjects = 29 
+   Raters = 4 
+    alpha = -0.263 
