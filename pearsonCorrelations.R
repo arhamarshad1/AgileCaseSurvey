@@ -1,3 +1,7 @@
+# Author: Arham Arshad
+# Agile Case Survey 
+# Peasron correlation test was conducted to predict relationship with exogenous and endogenous variables
+
 library("ggpubr")
 library("ggplot2")
 #cor(x, y,  method = "pearson", use = "complete.obs")
