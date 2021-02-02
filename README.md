@@ -13,13 +13,13 @@
 	•	Arham finished coding all the papers by the end of June.
 	•	A questionnaire was designed and sent to all the authors in the primary studies that reported single cases.
 
-	•	We generated this coding scheme: link
-	•	Arham read/coded 20 random papers (Now Primary Studies 1-20) 
-	•	Paul, Arham and Klaas reviewed the coding scheme and made some changes: (summary of changes)
-	•	Next we did informal keyword search and found primary studies X-Y  
-	•	Arham coded all these papers
-	•	Next we did backward snowballing and found primary studies Y-Z
-	•	Forward snowballing found Z-A
-	•	Arham read all of the new papers, in this order, and coded them in this spreadsheet:
-	•	Meanwhile we made this survey: (PDF of survey)
-	•	etc. (I probably missed a dozen steps)
+•	We generated this coding scheme: link
+•	Arham read/coded 20 random papers (Now Primary Studies 1-20) 
+•	Paul, Arham and Klaas reviewed the coding scheme and made some changes: (summary of changes)
+•	Next we did informal keyword search and found primary studies X-Y  
+•	Arham coded all these papers
+•	Next we did backward snowballing and found primary studies Y-Z
+•	Forward snowballing found Z-A
+•	Arham read all of the new papers, in this order, and coded them in this spreadsheet:
+•	Meanwhile we made this survey: (PDF of survey)
+•	etc. (I probably missed a dozen steps)
